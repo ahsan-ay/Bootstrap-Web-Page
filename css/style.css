@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#tags{border-bottom: transparent;transition: 1s;}
+
+#tags:hover{
+    border-bottom: 2px solid navy;
+}
+
+
+#btn{
+    transition: 0.5s ease;
+    background-color: navy; width: 120px; border-radius: 5px; border: none;
+    color: white;
+}
+
+#btn:hover{
+    letter-spacing: 0.5px;
+    scale: 1.1;
+    background-color: transparent;
+    border: 1px solid navy;
+    border-radius: 5px;
+    color: navy;
+}
+
+.person {
+    width: 280px;
+    height: 330px;
+
+    position: absolute;
+    bottom: 127.5px;
+    left: 725px;
+
+    object-fit: contain;
+    object-position: bottom;
+
+    z-index: 1;
+}
